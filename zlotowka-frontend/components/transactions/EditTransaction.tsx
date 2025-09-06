@@ -26,7 +26,7 @@ export default function EditTransaction({
       return transaction.period === "ONCE"
         ? transaction
         : await TransactionService.getRecurringTransaction(
-            transaction.transactionId
+            transaction.transactionId,
           );
     },
   });

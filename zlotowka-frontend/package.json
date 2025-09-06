@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "eslint:check": "npx eslint .",
+    "eslint:fix": "npx eslint . --fix",
+    "prettier:check": "npx prettier --check './**/*.{ts,js,tsx,scss,json}'",
+    "prettier:fix": "npx prettier --write './**/*.{ts,js,tsx,scss,json}'"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
