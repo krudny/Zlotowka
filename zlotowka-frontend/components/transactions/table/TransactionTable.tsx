@@ -6,7 +6,7 @@ import { useMemo, useState } from "react";
 import EditTransactionButton from "./EditTransactionButton";
 import EditTransaction from "../EditTransaction";
 import { DisplayedGeneralTransaction } from "@/interfaces/transactions/TransactionsData";
-import { useQueryWithToast } from "@/lib/data-grabbers";
+import { useQueryWithToast } from "@/lib/dataGrabbers";
 import dayjs from "dayjs";
 
 // Dla md+ używamy 4 kolumn, a dla mniejszych tylko 3

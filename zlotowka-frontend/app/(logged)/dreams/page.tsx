@@ -7,7 +7,7 @@ import { NewDreamReq, useDreamsService } from "@/services/DreamsService";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { useState } from "react";
 import toast from "react-hot-toast";
-import { useQueryWithToast } from "@/lib/data-grabbers";
+import { useQueryWithToast } from "@/lib/dataGrabbers";
 
 export default function Dreams() {
   const DreamService = useDreamsService();

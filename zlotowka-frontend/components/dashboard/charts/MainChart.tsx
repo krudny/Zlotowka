@@ -20,7 +20,7 @@ import { ReferenceLine } from "recharts";
 import { getRoundedDomain } from "@/lib/utils";
 import { useMainChartContext } from "@/components/providers/MainChartContext";
 import MainChartPopup from "@/components/dashboard/components/MainChartPopup";
-import { useQueryWithToast } from "@/lib/data-grabbers";
+import { useQueryWithToast } from "@/lib/dataGrabbers";
 
 export function MainChart() {
   const [showMainChartPopup, setShowMainChartPopup] = useState<boolean>(false);

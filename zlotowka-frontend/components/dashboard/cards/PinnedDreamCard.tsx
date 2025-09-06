@@ -7,7 +7,7 @@ import { ProgressBar } from "@/components/general/ProgressBar";
 import { Dream, useDreamsService } from "@/services/DreamsService";
 import LoadingSpinner from "@/components/general/LoadingSpinner";
 import { useEffect, useState } from "react";
-import { useQueryWithToast } from "@/lib/data-grabbers";
+import { useQueryWithToast } from "@/lib/dataGrabbers";
 
 const Progress = ({ dream }: { dream: Dream }) => (
   <div className="flex flex-col">

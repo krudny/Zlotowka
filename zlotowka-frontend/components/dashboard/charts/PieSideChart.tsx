@@ -15,7 +15,7 @@ import formatMoney from "@/utils/formatMoney";
 import LoadingSpinner from "@/components/general/LoadingSpinner";
 import { PieChartConfig } from "@/components/dashboard/charts/chartsConfig";
 import CustomLabel from "@/components/dashboard/charts/CustomLabel";
-import { useQueryWithToast } from "@/lib/data-grabbers";
+import { useQueryWithToast } from "@/lib/dataGrabbers";
 
 export function PieSideChart() {
   const DashboardService = useDashboardService();

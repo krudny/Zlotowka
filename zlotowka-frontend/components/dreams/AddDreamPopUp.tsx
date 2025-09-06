@@ -6,7 +6,7 @@ import DarkButton from "@/components/DarkButton";
 import { useCurrencyService } from "@/services/CurrencyController";
 import LoadingSpinner from "@/components/general/LoadingSpinner";
 import toast from "react-hot-toast";
-import { useQueryWithToast } from "@/lib/data-grabbers";
+import { useQueryWithToast } from "@/lib/dataGrabbers";
 
 export interface DreamComponentData {
   componentName: string;

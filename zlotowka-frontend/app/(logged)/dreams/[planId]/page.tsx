@@ -16,7 +16,7 @@ import { redirect, useParams, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import toast from "react-hot-toast";
 import { useDreamContext } from "@/components/dreams/DreamsContext";
-import { useQueryWithToast } from "@/lib/data-grabbers";
+import { useQueryWithToast } from "@/lib/dataGrabbers";
 import AddDreamComponentPopup from "@/components/dreams/AddDreamPopUp";
 import PickDreamDatePopup from "@/components/dreams/PickDreamDate";
 

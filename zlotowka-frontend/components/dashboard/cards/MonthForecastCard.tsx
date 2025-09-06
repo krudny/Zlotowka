@@ -6,7 +6,7 @@ import { useCardService } from "@/services/CardService";
 import formatMoney from "@/utils/formatMoney";
 import CardNumber from "@/components/dashboard/cards/generic/CardNumber";
 import LoadingSpinner from "@/components/general/LoadingSpinner";
-import { useQueryWithToast } from "@/lib/data-grabbers";
+import { useQueryWithToast } from "@/lib/dataGrabbers";
 
 const Value = ({ estimatedBalance }: { estimatedBalance: string }) => (
   <div className="flex items-baseline">

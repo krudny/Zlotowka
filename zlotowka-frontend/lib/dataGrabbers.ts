@@ -20,7 +20,7 @@ export function useQueryWithToast<TData = unknown>(
         queryResult.error.message || errorMessage || "An error occurred"
       );
     }
-  }, [queryResult.error]);
+  }, [errorMessage, queryResult.error]);
 
   return queryResult;
 }

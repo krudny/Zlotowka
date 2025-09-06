@@ -8,7 +8,7 @@ import {
   useState,
 } from "react";
 import { Dream, useDreamsService } from "@/services/DreamsService";
-import { useQueryWithToast } from "@/lib/data-grabbers";
+import { useQueryWithToast } from "@/lib/dataGrabbers";
 
 type DreamContextType = {
   pickedDream: number | null;

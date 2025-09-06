@@ -15,7 +15,7 @@ import EditFieldPopup from "@/components/settings/EditFieldPopup";
 import { useSettingsService } from "@/services/SettingsService";
 import {createPayload, validateSettings} from "@/lib/utils";
 import toast from "react-hot-toast";
-import { useQueryWithToast } from "@/lib/data-grabbers";
+import { useQueryWithToast } from "@/lib/dataGrabbers";
 
 const scrollToSection = (id: string) => {
   document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });

@@ -39,9 +39,7 @@ export default function RegisterPage() {
   });
 
   const handleFormSubmit = (formData: Record<string, string>) => {
-    formData as unknown as FormData; //for type checking, TS do not kill me
     const { firstName, lastName, email, password } = formData;
-
     magic.mutate({ firstName, lastName, email, password });
   };
 

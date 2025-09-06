@@ -8,7 +8,7 @@ import CardNumber from "@/components/dashboard/cards/generic/CardNumber";
 import LoadingSpinner from "@/components/general/LoadingSpinner";
 import dayjs from "dayjs";
 import TextNumberField from "@/components/dashboard/cards/generic/TextNumberField";
-import { useQueryWithToast } from "@/lib/data-grabbers";
+import { useQueryWithToast } from "@/lib/dataGrabbers";
 
 export default function CurrentBalanceCard() {
   const CardService = useCardService();

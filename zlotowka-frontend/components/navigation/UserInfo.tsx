@@ -1,4 +1,4 @@
-import { useQueryWithToast } from "@/lib/data-grabbers";
+import { useQueryWithToast } from "@/lib/dataGrabbers";
 import { useUserService } from "@/services/UserService";
 import Image from "next/image";
 import toast from "react-hot-toast";

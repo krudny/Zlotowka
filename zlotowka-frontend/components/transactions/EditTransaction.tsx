@@ -7,7 +7,7 @@ import {
   TransactionData,
 } from "@/interfaces/transactions/TransactionsData";
 import toast from "react-hot-toast";
-import { useQueryWithToast } from "@/lib/data-grabbers";
+import { useQueryWithToast } from "@/lib/dataGrabbers";
 
 export default function EditTransaction({
   transaction,

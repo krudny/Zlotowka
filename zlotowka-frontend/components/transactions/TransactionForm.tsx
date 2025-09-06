@@ -15,7 +15,7 @@ import GenericPopup from "@/components/general/GenericPopup";
 import { useCurrencyService } from "@/services/CurrencyController";
 import toast from "react-hot-toast";
 import { useTransactionService } from "@/services/TransactionService";
-import { useQueryWithToast } from "@/lib/data-grabbers";
+import { useQueryWithToast } from "@/lib/dataGrabbers";
 
 const defaultTransactionData: TransactionData = {
   name: "",

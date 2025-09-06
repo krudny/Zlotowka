@@ -8,7 +8,7 @@ import formatMoney from "@/utils/formatMoney";
 import TextNumberField from "@/components/dashboard/cards/generic/TextNumberField";
 import LoadingSpinner from "@/components/general/LoadingSpinner";
 import dayjs from "dayjs";
-import { useQueryWithToast } from "@/lib/data-grabbers";
+import { useQueryWithToast } from "@/lib/dataGrabbers";
 
 export default function NextIncomeCard() {
   const CardService = useCardService();
